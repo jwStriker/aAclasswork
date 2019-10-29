@@ -1,0 +1,17 @@
+body {
+    line-height: 1.5;
+}
+
+html, body, header, div, span, h1, h2, h3, h4, section,  ol, ul, li, a, form, label, article, aside, figcaption, footer, figure, nav{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+}
+
+ol, ul {
+    list-style: none;
+}
+ img {
+     width: 100%;
+ }
