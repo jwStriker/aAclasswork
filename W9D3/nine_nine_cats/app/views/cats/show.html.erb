@@ -1,0 +1,16 @@
+<h1><%= @cat.name %></h1>
+
+<table>
+    <tr>
+        <th>Attribute</th>
+        <th>Value</th>
+    </tr>
+
+    <% [:birth_date, :name, :age, :color, :sex].each do |attr_n| %>
+    <tr>
+        <td> <%= attr_n %>  </td>
+        <td> <%= @cat.send(attr_n) %></td>
+    </tr>
+    <% end %>
+</table>
+
