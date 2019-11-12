@@ -1,0 +1,51 @@
+// Use the gear_dropdown.png screenshot as a style guide
+
+.gear-dropdown {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px;
+    width: 200px;
+    z-index: 1;
+    color: darkgray;
+    font-family: sans-serif;
+    box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
+}
+
+.gear-dropdown .editions {
+    border-bottom: 1px solid lightgrey;
+}
+
+.gear-dropdown .editions li,
+.gear-dropdown .help li {
+    cursor: pointer;
+    font-size: 13px;
+    margin: 5px 0;
+    
+}
+
+.dropdown-subtitle {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: 10px 0px;
+    display: block;
+    font-size: 10px;
+}
+
+.editions a {
+    text-transform: uppercase;
+}
+
+.gear-dropdown .help li {
+    color:$blue;
+    text-decoration: underline;
+}
+
+.gear-dropdown .editions li:hover {
+    background-color: $light-gray;
+    color: black;
+}

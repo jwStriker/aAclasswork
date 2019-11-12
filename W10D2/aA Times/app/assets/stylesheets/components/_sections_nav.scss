@@ -1,0 +1,26 @@
+.sections-nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+.sections-nav ul {
+    display: flex;
+    padding: 10px;
+}
+
+.sections-nav li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: $sans-serif;
+}
+
+.sections-nav li:hover {
+    background-color: lightgrey;
+}
+
+.sections-nav a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 10px;
+}
