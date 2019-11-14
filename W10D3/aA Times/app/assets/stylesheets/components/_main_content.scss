@@ -1,0 +1,83 @@
+.main-content {
+    margin-top: 10px;
+}
+
+.main-content header {
+    font-weight: bold;
+}
+
+.byline {
+    color: $gray;
+    margin: 5px 0px;
+}
+
+.comments {
+    color: $blue;
+    font-size: 10 px;
+    text-decoration: underline;
+    font-family: $sans-serif;
+}
+
+.col-1 ul li {
+    margin: 10px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: underline;
+    
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+.tiny-title {
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.col-3 h2 {
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.input-wrap {
+    margin: 20px 0px;
+}
+
+.input-wrap input {
+    width: 76%;
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.input-3-4 {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.fineprint {
+    font-size: 10px;
+    margin-top: 7.5px;
+    color: $dark-gray;
+}
+
+iframe {
+    margin-bottom: 10px;
+}
+
+article {
+    margin: 10px 0px;
+}
