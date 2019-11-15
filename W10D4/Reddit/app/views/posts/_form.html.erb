@@ -1,0 +1,33 @@
+<form action="<%= action_url %>" method="POST">
+    <input type="hidden" name="_method" value="<%= http_method %>">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+    <label>
+    Title
+    <input name="post[title]" value="<%= post.title %>">
+    </label>
+
+    <label>
+        URL
+        <input name="post[url]" value="<%= post.url %>">
+    </label>
+
+    <label>
+    Description
+    <textarea name="post[content]"><%= post.content %></textarea>
+    </label>
+
+
+    
+    <% Sub.all.each do |sub| %>
+        <label>
+            <input 
+            type="checkbox" 
+            name="post[sub_ids][]" 
+            value="<%= sub.id %>" 
+            <%= "checked" if post.sub_ids.include?(sub.id) %>>
+            <%= sub.title %>
+        </label>
+    <% end %>
+    <input type="submit" value="submit">
+</form>

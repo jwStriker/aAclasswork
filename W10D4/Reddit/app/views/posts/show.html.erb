@@ -1,0 +1,11 @@
+<h1>Show Post</h1>
+<%= @post.title %>
+<%= @post.content %>
+
+<br>
+<h1>Comments</h1>
+<ul>
+    <% @post.comments.each do |comment| %>
+        <li><%= comment.content%></li>
+    <% end %>
+</ul>
