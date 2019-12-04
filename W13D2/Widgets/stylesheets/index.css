@@ -1,0 +1,158 @@
+html, body, header, title, h1, div, span, ul, li, article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: sans-serif;
+    color: inherit;
+    text-align: inherit;
+    text-decoration: inherit;
+    vertical-align: inherit;
+    box-sizing: inherit;
+    list-style: none;
+    background: transparent;
+}
+
+.clock {
+    font-size: 30px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    width: 400px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 0 20px 20px 20px;
+    background-size: cover;
+    background-position-y: 20%;
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: bold;
+}
+
+.clock p{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-header {
+    width: 200px;
+    height: 30px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-header > li{
+    width: 65px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 4px;
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.tab-header > li:hover{
+    background-color: black;
+    color: white;
+}
+
+.tabs {
+    width: 240px;
+    height: 200px;
+}
+
+.tab-header > li:first-child{
+    border-left: 2px solid black;
+}
+
+.tab-header > li:last-child{
+    border-right: 2px solid black;
+}
+
+.tab-content{
+    font-weight: bold;
+    color:white;
+    height: 192px;
+    margin: 0 20px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    background-size: cover;
+}
+
+.tab-header > .active {
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.tab-content article{
+    text-align: center;
+}
+
+.weather {
+    font-size: 28px;
+    width: 550px;
+    height: 94px;
+    border: 2px solid black;
+    margin: 0, 20px, 20px, 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgreen;
+    background-size: cover;
+    background-position-y: 20%;
+}
+
+.weather p {
+    margin: 8px;
+}
+
+.loading {
+    margin-top: 30px;
+}
+
+.autocomplete {
+    color: white;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    height: 200px;
+    width: 191px;
+    border: 2px solid black;
+    margin: 0 20px 20px 20px;
+    background-color: violet;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.autocomplete > *{
+margin-left: 30px;
+}
+
+.autocomplete > input{
+    margin: 10px 30px 0 30px;
+    border: 1px solid black;
+}
+
+.autocomplete li {
+    cursor: pointer;
+    list-style-type: square;
+}
+
+.side-by-side{
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+}
